@@ -10,7 +10,7 @@ engines:
   rubocop:
     enabled: true
     config:
-      file: my_rubocop.yml
+      file: .rubocop.yml
 ratings:
   paths:
   - Gemfile.lock
