@@ -1,11 +1,9 @@
 language: ruby
 rvm:
   - 2.3.1
-  env:
-    global:
-      - CC_TEST_REPORTER_ID=238e0d8c3bc23a1f66443c49437efc61e3c984f224e9e33f9866009964298e9c
-rvm:
-  - 2.2.0
+env:
+  global:
+    - CC_TEST_REPORTER_ID=238e0d8c3bc23a1f66443c49437efc61e3c984f224e9e33f9866009964298e9c
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
